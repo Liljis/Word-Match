@@ -1,0 +1,89 @@
+html,body{
+    background-color: #998ea4;
+}
+*{
+    padding: 0;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.container{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.question-box h3{
+    display: flex;
+    justify-content: flex-start;
+}
+.question-box{
+    border: 2px solid black;
+    background-color: black;
+    margin:1rem;
+    border-radius: 10px;
+    padding: 0 10px 8px;
+    color: white;
+}
+.playground{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.option-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.option-btn{
+    background: hotpink;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: lavenderblush;
+}
+.result_div{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red
+}
+.intro{
+    position: absolute;
+    text-align: center;
+    top: 2rem;
+}
+.instructions{
+    font-size: x-large;
+    color: #322341;
+    font-family: monospace;
+}
+.intro button{
+    background: transparent;
+    border: 2px inset #322341;
+    border-radius: 5rem;
+    font-size: 2rem;
+    padding: 1rem;
+    top: 2rem;
+}
+.back{
+    background: transparent;
+    border: 2px inset #322341;
+    border-radius: 3rem;
+    font-size: 1rem;
+    padding: .5rem;
+}
